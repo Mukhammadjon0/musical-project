@@ -1,6 +1,39 @@
-/* heading */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+i {
+  text-decoration: none;
+}
+
+a:hover,
+i:hover {
+  color: #ec5242;
+}
+
 
 @media only screen and (max-width: 768px) {
+
   .nav-desktop,
   .message-nav {
     display: none;
